@@ -1,0 +1,731 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "undefined" ],
+    "iri" : "http://julia1337.eu5.org/Ukraine",
+    "other" : {
+      "comment" : [ {
+        "identifier" : "comment",
+        "language" : "undefined",
+        "value" : "Структура державного устрою України",
+        "type" : "label"
+      } ]
+    }
+  },
+  "metrics" : {
+    "classCount" : 34,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 34,
+    "axiomCount" : 66,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class30",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Законодавча_влада"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Законодавча_влада",
+    "subClasses" : [ "class32" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "Загальні_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Загальні_суди",
+    "subClasses" : [ "class11" ],
+    "superClasses" : [ "class30" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Органи_державного_управління"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Органи_державного_управління",
+    "subClasses" : [ "class23", "class14" ],
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "Вищі_органи"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Вищі_органи",
+    "superClasses" : [ "class31" ],
+    "instances" : 0
+  }, {
+    "id" : "class33",
+    "label" : {
+      "IRI-based" : "Апеляційні_суди_областей"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Апеляційні_суди_областей",
+    "subClasses" : [ "class10", "class24", "class26" ],
+    "superClasses" : [ "class8" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Вищий_господарчий_суд_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Вищий_господарчий_суд_України",
+    "subClasses" : [ "class9" ],
+    "superClasses" : [ "class2" ],
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "Cекретаріат_Президента"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Cекретаріат_Президента",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Апеляційні_господарчі_суди_областей"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Апеляційні_господарчі_суди_областей",
+    "subClasses" : [ "class4" ],
+    "superClasses" : [ "class15" ],
+    "instances" : 0
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "Господарчі_суди_областей"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Господарчі_суди_областей",
+    "superClasses" : [ "class4" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Міські_та_районні_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Міські_та_районні_суди",
+    "superClasses" : [ "class33" ],
+    "instances" : 0
+  }, {
+    "id" : "class31",
+    "label" : {
+      "IRI-based" : "Органи_державної_виконавчої_влади"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Органи_державної_виконавчої_влади",
+    "subClasses" : [ "class21", "class13", "class27", "class20" ],
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Конституційний_суд_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Конституційний_суд_України",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "Адміністративні_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Адміністративні_суди",
+    "subClasses" : [ "class16" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "Районні_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Районні_суди",
+    "superClasses" : [ "class33" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Апеляційні_адміністративні_суди_областей"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Апеляційні_адміністративні_суди_областей",
+    "subClasses" : [ "class28" ],
+    "superClasses" : [ "class16" ],
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "Судова_влада"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Судова_влада",
+    "subClasses" : [ "class30", "class6" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Місцеві_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Місцеві_суди",
+    "subClasses" : [ "class29" ],
+    "superClasses" : [ "class9" ],
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "Спеціальні_органи"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Спеціальні_органи",
+    "superClasses" : [ "class31" ],
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "Недержавні_органии_управління"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Недержавні_органии_управління",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Вищий_спеціалізований_суд_України_з_розгляду_цивільних_і_кримінальних_справ"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Вищий_спеціалізований_суд_України_з_розгляду_цивільних_і_кримінальних_справ",
+    "subClasses" : [ "class8" ],
+    "superClasses" : [ "class17" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Місцеві_органи"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Місцеві_органи",
+    "superClasses" : [ "class31" ],
+    "instances" : 0
+  }, {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "Державний_устрій_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Державний_устрій_України",
+    "subClasses" : [ "class1", "class5", "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Апеляційний_суд_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Апеляційний_суд_України",
+    "subClasses" : [ "class33" ],
+    "superClasses" : [ "class11" ],
+    "instances" : 0
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "Окружні_адміністративні_суди_областей"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Окружні_адміністративні_суди_областей",
+    "superClasses" : [ "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Спеціалізовані_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Спеціалізовані_суди",
+    "subClasses" : [ "class22", "class2" ],
+    "superClasses" : [ "class30" ],
+    "instances" : 0
+  }, {
+    "id" : "class32",
+    "label" : {
+      "IRI-based" : "Верховна_рада_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Верховна_рада_України",
+    "superClasses" : [ "class5" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "Центральні_ограни"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Центральні_ограни",
+    "superClasses" : [ "class31" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "Виконавча_влада"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Виконавча_влада",
+    "subClasses" : [ "class25", "class7", "class31" ],
+    "superClasses" : [ "class19" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Державна_коміссія_з_цінних_паперів"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Державна_коміссія_з_цінних_паперів",
+    "superClasses" : [ "class7" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Господарчі_суди"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Господарчі_суди",
+    "subClasses" : [ "class15" ],
+    "superClasses" : [ "class12" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Вищий_адміністративний_суд_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Вищий_адміністративний_суд_України",
+    "subClasses" : [ "class3" ],
+    "superClasses" : [ "class22" ],
+    "instances" : 0
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "Районні_суди_у_містах"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Районні_суди_у_містах",
+    "superClasses" : [ "class33" ],
+    "instances" : 0
+  }, {
+    "id" : "class30",
+    "label" : {
+      "IRI-based" : "Верховний_суд_України"
+    },
+    "iri" : "http://julia1337.eu5.org/Ukraine#Верховний_суд_України",
+    "subClasses" : [ "class17", "class12" ],
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class17"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class32",
+    "range" : "class5"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class2"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class7"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class7"
+  }, {
+    "id" : "property26",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class25",
+    "range" : "class1"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class12"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class31",
+    "range" : "class1"
+  }, {
+    "id" : "property27",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class1"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class19"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class19"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class12"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class33",
+    "range" : "class8"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class19"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class9"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class33"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class33"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class15"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class26",
+    "range" : "class33"
+  }, {
+    "id" : "property19",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class11"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class29",
+    "range" : "class4"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class28",
+    "range" : "class3"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class22"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class18"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class30",
+    "range" : "class18"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class31"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class31"
+  }, {
+    "id" : "property32",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class30"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class31"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class27",
+    "range" : "class31"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class30"
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class16"
+  } ]
+}
